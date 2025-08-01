@@ -30,6 +30,7 @@ const App = () => {
           id="firstname"
           value={formData.firstname}
           onChange={handleChange}
+          required
         />
         <br />
         <label htmlFor="lastname">Last Name:</label>
@@ -39,6 +40,7 @@ const App = () => {
           id="lastname"
           value={formData.lastname}
           onChange={handleChange}
+          required
         />
         <br />
         <button type="submit">Submit</button>
